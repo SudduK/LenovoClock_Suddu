@@ -1,0 +1,41 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  nima: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/NatureSunriseSunset.nima
+    - assets/NatureSunriseSunset0.png
+    - assets/NatureSunriseSunset1.png
+    - assets/NatureSunriseSunset2.png
+    - assets/NatureSunriseSunset3.png
+    - assets/NatureSunriseSunset4.png
+    - assets/NatureSunriseSunset5.png
+    - assets/NatureSunriseSunset6.png
+    - assets/NatureSunriseSunset7.png
+    - assets/NatureSunriseSunset8.png
+    - assets/NatureSunriseSunset9.png
+    - assets/NatureSunriseSunset10.png
+    - assets/NatureSunriseSunset11.png
+    - assets/NatureSunriseSunset12.png
+    - assets/NatureSunriseSunset13.png  
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: third_party/PressStart2P-Regular.ttf
